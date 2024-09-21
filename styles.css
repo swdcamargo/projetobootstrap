@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom,hsl(325, 100%, 49%),#b4b3b3, #ff04f2); /* Gradiente do azul para o branco */
+    color: #111111; /* Cor do texto */
+}
+
+
+.navbar {
+    background: linear-gradient(to bottom,hsl(325, 100%, 49%)); /* Gradiente do azul para o branco */
+}
+
+.nav-link {
+    color: #fcfafa !important; /* Links brancos */
+}
+
+.nav-link:hover {
+    color: #ffc107 !important; /* Amarelo ao passar o mouse */
+}
+
+.header {
+    background-color: #2e649b; /* Fundo escuro para o header */
+}
+
+.header h1 {
+    color: #ffc107; /* Amarelo */
+}
+
+.header p {
+    color: #756161; /* Branco */
+}
+    
+.carousel-image {
+    height: 400px; /* Defina a altura desejada */
+    object-fit: cover; /* Isso garante que a imagem cubra o espaço sem distorção */
+}
+
+.carousel {
+    margin: auto; /* Centraliza o carrossel */
+    max-width: 800px; /* Limita a largura do carrossel */
+}
+
+
+.carousel-caption h5 {
+    color: #ffc107; /* Amarelo */
+}
+
+.card {
+    border: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra ao passar o mouse */
+}
+
+footer {
+    background-color: #ff04f2; /* Fundo escuro para o footer */
+}
+
+footer p {
+    color: #ffffff; /* Branco */
+}
